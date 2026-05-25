@@ -397,7 +397,7 @@ export default function Index() {
               {[
                 { icon: "Phone", text: "+7 (495) 000-00-00", sub: "Пн–Сб, 9:00–19:00" },
                 { icon: "Mail", text: "info@veranda-master.ru", sub: "Ответим в течение 2 часов" },
-                { icon: "MapPin", text: "Москва и Московская область", sub: "Выезд в любую точку" },
+                { icon: "MapPin", text: "Уфа", sub: "Выезд в любую точку" },
               ].map((c, i) => (
                 <div key={i} className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-lg bg-[#C8966A]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
