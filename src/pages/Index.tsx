@@ -174,7 +174,7 @@ export default function Index() {
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-background/95 backdrop-blur-sm border-b border-border" : "bg-transparent"}`}>
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="font-display text-2xl text-[#C8966A] italic">
-            ВерандаМастер
+            НОВА
           </button>
           <ul className="hidden md:flex items-center gap-7">
             {NAV.map((n) => (
@@ -453,8 +453,8 @@ export default function Index() {
       {/* FOOTER */}
       <footer className="border-t border-border py-8 px-6" style={{ backgroundColor: "#14110D" }}>
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <span className="font-display text-xl italic text-[#C8966A]">ВерандаМастер</span>
-          <p className="text-xs text-muted-foreground">© 2024 ВерандаМастер. Все права защищены.</p>
+          <span className="font-display text-xl italic text-[#C8966A]">НОВА</span>
+          <p className="text-xs text-muted-foreground">© 2024 НОВА. Все права защищены.</p>
           <div className="flex gap-6">
             {["О нас", "Услуги", "Контакты"].map((n) => (
               <button key={n} className="text-xs text-muted-foreground hover:text-[#C8966A] transition-colors">{n}</button>
