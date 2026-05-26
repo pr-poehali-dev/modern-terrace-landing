@@ -12,9 +12,9 @@ const SERVICES = [
 ];
 
 const PORTFOLIO = [
-  { title: "Терраса у дома", area: "42 м²", material: "Лиственница", before: GAZEBO_IMAGE, after: HERO_IMAGE },
-  { title: "Беседка с барбекю", area: "28 м²", material: "Кедр", before: HERO_IMAGE, after: GAZEBO_IMAGE },
-  { title: "Веранда панорамная", area: "35 м²", material: "Ель + стекло", before: GAZEBO_IMAGE, after: HERO_IMAGE },
+  { title: "Терраса у дома", area: "42 м²", material: "Лиственница", before: "https://cdn.poehali.dev/projects/3920dd0c-4dfa-4c78-9711-bb7b6291f67a/files/5f214739-d53e-48a9-8543-2b8abc5af186.jpg", after: "https://cdn.poehali.dev/projects/3920dd0c-4dfa-4c78-9711-bb7b6291f67a/files/fe42797a-caed-4ad3-996f-d75fda368589.jpg" },
+  { title: "Беседка с барбекю", area: "28 м²", material: "Кедр", before: "https://cdn.poehali.dev/projects/3920dd0c-4dfa-4c78-9711-bb7b6291f67a/files/5100d645-340f-4be5-9617-f21c8a60f567.jpg", after: "https://cdn.poehali.dev/projects/3920dd0c-4dfa-4c78-9711-bb7b6291f67a/files/0eb78dd6-bddb-4345-af31-cc51e16d231e.jpg" },
+  { title: "Веранда панорамная", area: "35 м²", material: "Ель + стекло", before: "https://cdn.poehali.dev/projects/3920dd0c-4dfa-4c78-9711-bb7b6291f67a/files/12a359cc-7c84-4da9-ba53-c64c3b1b69c2.jpg", after: "https://cdn.poehali.dev/projects/3920dd0c-4dfa-4c78-9711-bb7b6291f67a/files/367bd640-a0f8-45f7-adad-26b591361ecb.jpg" },
 ];
 
 const REVIEWS = [
