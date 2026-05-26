@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import Icon from "@/components/ui/icon";
 
 const HERO_IMAGE = "https://cdn.poehali.dev/projects/3920dd0c-4dfa-4c78-9711-bb7b6291f67a/files/8ca3135f-40c5-46ed-8f8f-3b44b8abf83a.jpg";
-const GAZEBO_IMAGE = "https://cdn.poehali.dev/projects/3920dd0c-4dfa-4c78-9711-bb7b6291f67a/files/0071f7a4-88d7-4cbd-82f0-4c5467fe0123.jpg";
+const GAZEBO_IMAGE = "https://cdn.poehali.dev/projects/3920dd0c-4dfa-4c78-9711-bb7b6291f67a/files/38709cc8-d017-4c28-89c3-651ee51b23b3.jpg";
 
 const SERVICES = [
   { icon: "Home", title: "Веранды", desc: "Открытые и застеклённые веранды, которые станут любимым местом отдыха вашей семьи. Проектируем под ваш дом.", price: "от 180 000 ₽" },
